@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="LYLaterActivityHeadView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="221"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="4HY-Wn-g78">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="175"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="175" id="3Ra-g6-ndj"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="155" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2rw-kj-PIv">
+                    <rect key="frame" x="284" y="183" width="28" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="10" id="QFX-4P-msm"/>
+                        <constraint firstAttribute="height" constant="30" id="TXs-Ni-XjZ"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chat" translatesAutoresizingMaskIntoConstraints="NO" id="kvK-Tr-zVA">
+                    <rect key="frame" x="251" y="185" width="25" height="25"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="25" id="djF-XB-cbZ"/>
+                        <constraint firstAttribute="height" constant="25" id="e8p-Yd-h3r"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1526" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1JH-Va-Tkp">
+                    <rect key="frame" x="193" y="183" width="38" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="6ev-EY-Zv1"/>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="10" id="Thk-lT-6f4"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="love" highlightedImage="love_select" translatesAutoresizingMaskIntoConstraints="NO" id="KmN-6L-Uvv">
+                    <rect key="frame" x="165" y="188" width="20" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="MC9-R1-9az"/>
+                        <constraint firstAttribute="width" constant="20" id="z90-ub-O4G"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="2rw-kj-PIv" secondAttribute="trailing" constant="8" id="3Ra-5X-Snr"/>
+                <constraint firstItem="1JH-Va-Tkp" firstAttribute="top" secondItem="4HY-Wn-g78" secondAttribute="bottom" constant="8" id="AfV-NS-syO"/>
+                <constraint firstItem="kvK-Tr-zVA" firstAttribute="top" secondItem="4HY-Wn-g78" secondAttribute="bottom" constant="10" id="AlI-AZ-fVq"/>
+                <constraint firstAttribute="trailing" secondItem="4HY-Wn-g78" secondAttribute="trailing" id="E1U-es-nms"/>
+                <constraint firstItem="1JH-Va-Tkp" firstAttribute="leading" secondItem="KmN-6L-Uvv" secondAttribute="trailing" constant="8" id="FCR-Yt-6fg"/>
+                <constraint firstItem="2rw-kj-PIv" firstAttribute="leading" secondItem="kvK-Tr-zVA" secondAttribute="trailing" constant="8" id="PGZ-4b-umu"/>
+                <constraint firstItem="4HY-Wn-g78" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="XTM-ko-ngQ"/>
+                <constraint firstItem="KmN-6L-Uvv" firstAttribute="top" secondItem="4HY-Wn-g78" secondAttribute="bottom" constant="13" id="ZzX-zY-snu"/>
+                <constraint firstItem="kvK-Tr-zVA" firstAttribute="leading" secondItem="1JH-Va-Tkp" secondAttribute="trailing" constant="20" id="cky-fg-nei"/>
+                <constraint firstItem="4HY-Wn-g78" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="dlk-sA-0w2"/>
+                <constraint firstItem="2rw-kj-PIv" firstAttribute="top" secondItem="4HY-Wn-g78" secondAttribute="bottom" constant="8" id="gDP-Xx-pWF"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="chatNumLabel" destination="2rw-kj-PIv" id="zTx-zr-9mY"/>
+                <outlet property="headImageView" destination="4HY-Wn-g78" id="p22-QC-kG9"/>
+                <outlet property="loveNumLabel" destination="1JH-Va-Tkp" id="SNS-nh-BoG"/>
+            </connections>
+            <point key="canvasLocation" x="336" y="234.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="chat" width="54" height="54"/>
+        <image name="love" width="46" height="39"/>
+        <image name="love_select" width="27" height="27"/>
+    </resources>
+</document>
