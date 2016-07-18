@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "dba3c6ab-bf93-f44d-b87d-dbab7236ae73++6158",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "dba3c6ab-bf93-f44d-b87d-dbab7236ae73++6158" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "dba3c6ab-bf93-f44d-b87d-dbab7236ae73++6158" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "3EF4AC9C-ABD7-4FE3-922F-A118AC42A2B7",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "dba3c6ab-bf93-f44d-b87d-dbab7236ae73++6158" : "CuiHuXiangShan\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "CuiHuXiangShan",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "CuiHuXiangShan.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/120.25.64.75\/svn\/fengdi",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "dba3c6ab-bf93-f44d-b87d-dbab7236ae73++6158"
+    }
+  ]
+}
